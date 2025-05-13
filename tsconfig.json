@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "pretty": true,
+    "jsx": "react",
+    "esModuleInterop": true,
+    "outDir": "./dist",
+    "sourceMap": true,
+    "baseUrl": "./src"
+  },
+  "include": ["src/**/*.tsx"],
+  "exclude": ["node_modules"]
+}

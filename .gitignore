@@ -1,1 +1,28 @@
+# Dependencias
+node_modules/
+
+# Archivos de compilación
+dist/
+wpTheme/dist/
+
+# Archivos WordPress
 wordpress/
+
+# Archivos del sistema
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+
+# Variables de entorno
+.env
+
+# Archivos del editor
+.vscode/
+*.swp
+*.swo
+
+# Otros archivos que no se deben rastrear
+.env.local
+.env.*.local

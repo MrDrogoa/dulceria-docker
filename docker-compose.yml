@@ -17,6 +17,8 @@ services:
     container_name: wordpress
     volumes:
       - ./wordpress:/var/www/html
+      # con este pude hacer una carpeta externa para trabajar en los temas de wordpress directamente
+      - ./wpTheme:/var/www/html/wp-content/themes/dulceria-tema 
     environment:
       - WORDPRESS_DB_NAME=wordpress
       - WORDPRESS_TABLE_PREFIX=wp_

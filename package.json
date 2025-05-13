@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xDanielspe/dulceria-docker.git"
+    "url": "git+https://github.com/MrDrogoa/dulceria-docker.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/xDanielspe/dulceria-docker/issues"
+    "url": "https://github.com/MrDrogoa/dulceria-docker/issues"
   },
-  "homepage": "https://github.com/xDanielspe/dulceria-docker#readme",
+  "homepage": "https://github.com/MrDrogoa/dulceria-docker#readme",
   "description": "",
   "dependencies": {
     "react": "^19.1.0",

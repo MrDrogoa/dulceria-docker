@@ -9,6 +9,6 @@
     "sourceMap": true,
     "baseUrl": "./src"
   },
-  "include": ["src/**/*.tsx"],
+  "include": ["src/**/*.tsx", "src/hooks/useFetch.ts"],
   "exclude": ["node_modules"]
 }

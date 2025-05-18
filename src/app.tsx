@@ -1,8 +1,15 @@
 import React from "react";
-import Posts from "./components/Posts/Posts";
+import Posts from "./components/posts/Posts";
+import client from "./apollo";
+import { ApolloProvider } from "@apollo/client";
 
 const App = () => {
-  return <Posts />;
+  return (
+    //@ts-ignore
+    <ApolloProvider client={client}>
+      <Posts />
+    </ApolloProvider>
+  );
 };
 
 export default App;

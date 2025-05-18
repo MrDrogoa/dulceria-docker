@@ -29,7 +29,7 @@ module.exports = (env) => {
         },
         {
           test: /\.css$/,
-          use: ["style-loader", "css-loader"],
+          use: ["style-loader", "css-loader", "postcss-loader"],
         },
         {
           test: /\.scss$/,
@@ -76,7 +76,7 @@ module.exports = (env) => {
       path: env.production
         ? path.resolve(__dirname, "./dist")
         : path.resolve(__dirname, "./wpTheme/dist"),
-      clean: true, // add this line
+      clean: false, // add this line
     },
   };
 };
